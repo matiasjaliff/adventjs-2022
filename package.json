@@ -1,0 +1,25 @@
+{
+  "name": "adventjs-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasjaliff/adventjs-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasjaliff/adventjs-2022/issues"
+  },
+  "homepage": "https://github.com/matiasjaliff/adventjs-2022#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.3"
+  }
+}
