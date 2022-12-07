@@ -23,9 +23,9 @@ Nota: El carácter \n representa un salto de línea.
 Ah, y no modifiques (mutes) el array original.
 */
 
-function wrapping(gifts: string[]): string[] {
+export default function wrapping(gifts: string[]): string[] {
   return gifts.map((gift) => {
-    const layer = gift.split("").reduce((acc) => acc += "*", "");
+    const layer = gift.split("").reduce((acc) => (acc += "*"), "");
     return "**" + layer + "\n*" + gift + "*\n" + layer + "**";
   });
 }
