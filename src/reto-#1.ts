@@ -29,8 +29,3 @@ export default function wrapping(gifts: string[]): string[] {
     return "**" + layer + "\n*" + gift + "*\n" + layer + "**";
   });
 }
-
-const gifts = ["cat", "game", "socks"];
-const wrapped = wrapping(gifts);
-
-console.log(wrapped);
